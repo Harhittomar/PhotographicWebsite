@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Font";
+    src: url(fonts/AlumniSansPinstripe-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Font',sans-serif;
+}
+
+.container{
+    background-image: url(images/ukraine-russian-conflict-pretty-brave-cute-guy-with-flags-cheeks-praying-ukraine.jpg);
+    background-size: cover;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    align-items: center;
+    background: transparent;
+   }
+
+.nav-right{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    align-items: center;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.anchor1{
+    color: black;
+}
+
+.anchor1:hover{
+    color: white;
+}
+
+.nav-left{
+    font-size: 35px;
+}
+
+.hero{
+    height: 700px;
+    position: relative;
+}
+
+.hero-text{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    font-size: 80px;
+}
+
+.showcase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 192, 29);
+    padding: 2rem;
+}
+
+.cards{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 7rem;
+color: white;
+}
+
+.card1{
+   height: 30rem;
+   width: 20rem;
+   border-radius: 15%;
+   transition-duration: 500ms;
+   cursor: pointer;
+
+}
+
+.card2{
+    height: 30rem;
+    width: 20rem;
+    border-radius: 15%;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+
+.card3{
+    height: 30rem;
+    width: 20rem;
+    border-radius: 15%;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.headings{
+    font-size: 90px;
+    padding-right: 60%;
+    color: white;
+}
+
+.card1:hover{
+    transform: scale(1.1);
+}
+
+.card2:hover{
+    transform: scale(1.1);
+}
+
+.card3:hover{
+    transform: scale(1.1);
+}
